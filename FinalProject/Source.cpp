@@ -62,7 +62,7 @@ void Cart()
 	while (ans == 1)
 	{
 		int entered_product_num;
-		cout << "Enter the product number you wish to add: ";
+		cout << "Enter the product number you want to add: ";
 		while (!(cin >> entered_product_num)) { cin.clear(); cin.ignore(1000, '\n'); cout << "Invalid Input!\nPlease enter the product number: "; }
 		for (int i = 0; i < s1[c - 1].shop1.num_of_products; i++)
 		{
